@@ -2,7 +2,7 @@
 # Toggles doGeneticMods
 ####################
 
-execute store result score @s terra.dummy run scoreboard players get ExpertMode terra.config
-execute if score @s terra.dummy matches 0 run scoreboard players set ExpertMode terra.config 1
-execute if score @s terra.dummy matches 1 run scoreboard players set ExpertMode terra.config 0
-function terra:entity/player/gamerule_tellraw/menu
+execute store result score @s spin.dummy run scoreboard players get ExpertMode spin.config
+execute if score @s spin.dummy matches 0 run scoreboard players set ExpertMode spin.config 1
+execute if score @s spin.dummy matches 1 run scoreboard players set ExpertMode spin.config 0
+function spin:entity/player/gamerule_tellraw/menu

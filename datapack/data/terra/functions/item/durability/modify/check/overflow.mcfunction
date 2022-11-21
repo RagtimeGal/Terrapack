@@ -3,14 +3,14 @@
 ############################################################
 
 # Prevent the added durability amount from overflowing the maximum value by setting it to the maximum repair value
-execute if score #item_durability_change terra.dummy matches ..-1 run function terra:item/durability/modify/check/set_max
+execute if score #item_durability_change spin.dummy matches ..-1 run function spin:item/durability/modify/check/set_max
 
 # Find out the new durability of the item (USED IN LATER FUNCTIONS AS WELL)
-execute store result score @s terra.dummy run data get storage terra:storage root.temp.item.tag.terra.durability[0] 1
-scoreboard players operation @s terra.dummy -= #item_durability_change terra.dummy
+execute store result score @s spin.dummy run data get storage spin:storage root.temp.item.tag.spin.durability[0] 1
+scoreboard players operation @s spin.dummy -= #item_durability_change spin.dummy
 
 # If the durability is less than 0, break the item
-execute if entity @s[scores={terra.dummy=..0}] run function terra:item/durability/modify/break
+execute if entity @s[scores={spin.dummy=..0}] run function spin:item/durability/modify/break
 
 # If the durability is more than 0, modify the durability of the item
-execute if entity @s[scores={terra.dummy=1..}] run function terra:item/durability/modify/change_item_data
+execute if entity @s[scores={spin.dummy=1..}] run function spin:item/durability/modify/change_item_data

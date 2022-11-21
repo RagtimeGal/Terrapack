@@ -3,4 +3,4 @@
 ####################
 
 ## Message
-tellraw @p {"translate":"terra (MISSING RESOURCES)","with":[{"translate":"pack.terra","color":"yellow"}],"clickEvent":{"action":"open_url","value":"https://github.com/RagtimeGal/terrapack/wiki"},"hoverEvent":{"action":"show_text","contents":[{"translate":"The Terrapack Resource Pack is not installed.","with":[{"translate":"chat.terra.wiki.hover_event"}]}]}}
+tellraw @p {"translate":"spin (MISSING RESOURCES)","with":[{"translate":"pack.spin","color":"yellow"}],"clickEvent":{"action":"open_url","value":"https://github.com/RagtimeGal/terrapack/wiki"},"hoverEvent":{"action":"show_text","contents":[{"translate":"The Terrapack Resource Pack is not installed.","with":[{"translate":"chat.spin.wiki.hover_event"}]}]}}

@@ -3,7 +3,7 @@
 ############################################################
 
 # Calculations for if your xp level changed or not
-scoreboard players operation @s terra.old_xp -= @s terra.current_xp
-tag @s remove terra.saw_xp_orb
-execute if score @s terra.old_xp matches ..-1 run function terra:item/durability/mending/repair_priority_list
-scoreboard players reset @s terra.old_xp
+scoreboard players operation @s spin.old_xp -= @s spin.current_xp
+tag @s remove spin.saw_xp_orb
+execute if score @s spin.old_xp matches ..-1 run function spin:item/durability/mending/repair_priority_list
+scoreboard players reset @s spin.old_xp

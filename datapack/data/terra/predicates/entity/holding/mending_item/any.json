@@ -3,15 +3,15 @@
   "terms": [
     {
       "condition": "minecraft:reference",
-      "name": "terra:entity/holding/mending_item/chest"
+      "name": "spin:entity/holding/mending_item/chest"
     },
     {
       "condition": "minecraft:reference",
-      "name": "terra:entity/holding/mending_item/mainhand"
+      "name": "spin:entity/holding/mending_item/mainhand"
     },
     {
       "condition": "minecraft:reference",
-      "name": "terra:entity/holding/mending_item/offhand"
+      "name": "spin:entity/holding/mending_item/offhand"
     }
   ]
 }

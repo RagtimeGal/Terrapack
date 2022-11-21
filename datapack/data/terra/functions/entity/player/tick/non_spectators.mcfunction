@@ -3,7 +3,7 @@
 ####################
 
 ## Commands for holding items
-execute if entity @s[predicate=terra:entity/holding/anything] run function terra:entity/player/tick/holding_item
+execute if entity @s[predicate=spin:entity/holding/anything] run function spin:entity/player/tick/holding_item
 
 ## Reset Scoreboard
-function terra:entity/player/score_reset
+function spin:entity/player/score_reset

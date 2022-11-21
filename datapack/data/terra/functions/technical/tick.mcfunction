@@ -3,7 +3,7 @@
 ####################
 
 ## Entity Functions
-execute as @e[type=#terra:technical/tick,tag=terra.tick] at @s run function terra:entity/tick
+execute as @e[type=#spin:technical/tick,tag=spin.tick] at @s run function spin:entity/tick
 
 ## Player Tick
-execute as @a at @s run function terra:entity/player/tick/main
+execute as @a at @s run function spin:entity/player/tick/main

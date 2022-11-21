@@ -3,21 +3,21 @@
 ####################
 
 ## Remove Scoreboards
-scoreboard objectives remove terra.config
-scoreboard objectives remove terra.dummy
-scoreboard objectives remove terra.timer
-scoreboard objectives remove terra.carrot_on_a_stick
+scoreboard objectives remove spin.config
+scoreboard objectives remove spin.dummy
+scoreboard objectives remove spin.timer
+scoreboard objectives remove spin.carrot_on_a_stick
 
 ## Kill Mobs
-execute at @e[tag=terra.block] run setblock ~ ~ ~ air
-tp @e[tag=terra.entity] ~ ~-666 ~
-tp @e[tag=terra.modified] ~ ~-666 ~
+execute at @e[tag=spin.block] run setblock ~ ~ ~ air
+tp @e[tag=spin.entity] ~ ~-666 ~
+tp @e[tag=spin.modified] ~ ~-666 ~
 
 ## Team
 team remove smithed.prevent_aggression
 
 ## Uninstall Message
-tellraw @a [{"translate":"pack.terra.uninstall","color":"red"}]
+tellraw @a [{"translate":"pack.spin.uninstall","color":"red"}]
 
 ## Disable Datapack
 datapack disable "file/Terrapackb0.1Datapack.zip"

@@ -3,4 +3,4 @@
 ####################
 
 # Reset for mending repair
-execute if entity @s[predicate=!terra:entity/holding/mending_item/any] run tag @s remove terra.saw_xp_orb
+execute if entity @s[predicate=!spin:entity/holding/mending_item/any] run tag @s remove spin.saw_xp_orb

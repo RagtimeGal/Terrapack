@@ -2,4 +2,4 @@
 # Opens gamerule menu
 ####################
 
-function terra:entity/player/gamerule_tellraw/menu
+function spin:entity/player/gamerule_tellraw/menu

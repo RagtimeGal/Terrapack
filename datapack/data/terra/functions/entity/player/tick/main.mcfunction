@@ -3,4 +3,4 @@
 ####################
 
 ## Non-Spectator Stuffs
-execute if entity @s[gamemode=!spectator] run function terra:entity/player/tick/non_spectators
+execute if entity @s[gamemode=!spectator] run function spin:entity/player/tick/non_spectators

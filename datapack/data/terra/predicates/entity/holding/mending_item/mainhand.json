@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "nbt": "{Enchantments:[{id:\"minecraft:mending\"}],terra:{repaired:0b}}"
+        "nbt": "{Enchantments:[{id:\"minecraft:mending\"}],spin:{repaired:0b}}"
       }
     }
   }
